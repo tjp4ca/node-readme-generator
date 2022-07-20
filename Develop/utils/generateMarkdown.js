@@ -49,6 +49,7 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [License](#license)
+  - [Tests](#tests)
   - [Email](#email)
   - [Github](#github)
 
@@ -66,6 +67,9 @@ function generateMarkdown(data) {
 
   ## License
   ${data.licenseLink}
+
+  ## Tests
+  ${data.test}
 
   ## Questions
   ## Email

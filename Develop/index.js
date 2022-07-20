@@ -44,12 +44,17 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Project usage? (Press enter to skip)'
+        message: 'Usage information? (Press enter to skip)'
     },
     {
         type: 'input',
         name: 'contribution',
-        message: 'Contribution info? (Press enter to skip)'
+        message: 'Contribution guidelines? (Press enter to skip)'
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Test instructions? (Press enter to skip)',
     },
     {
         type: 'input',

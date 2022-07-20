@@ -1,4 +1,4 @@
-# develop readme
+# node-readme-generator
 
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -11,30 +11,34 @@
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [License](#license)
+  - [Tests](#tests)
   - [Email](#email)
   - [Github](#github)
 
   ## Description
-  a
+  description
 
   ## Installation
-  b
+  installation
 
   ## Usage
-  c
+  usage
 
   ## Contribution
-  d
+  contribution
 
   ## License
   [MIT](https://opensource.org/licenses/MIT)
 
+  ## Tests
+  test
+
   ## Questions
   ## Email
-  For more questions please contact: e
+  For more questions please contact: fakeEmail@gmail.com
 
   ## Github
-  https://github.com/f/develop readme
+  https://github.com/tjp4ca/node-readme-generator
 
 
 
