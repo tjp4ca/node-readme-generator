@@ -1,4 +1,4 @@
-# readme update
+# develop readme
 
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -34,7 +34,7 @@
   For more questions please contact: e
 
   ## Github
-  https://github.com/f/readme update
+  https://github.com/f/develop readme
 
 
 
