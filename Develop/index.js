@@ -67,12 +67,12 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'Enter the GitHub link to your project. (Required)',
+        message: 'Enter your GitHub username. (Required)',
         validate: linkInput => {
             if (linkInput) {
               return true;
             } else {
-              console.log('Please enter your project GitHub link!');
+              console.log('Please enter your GitHub username!');
               return false;
             }
           }
@@ -81,14 +81,14 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'License?',
-        choices: ['MIT', 'ISC', 'GNUPLv3']
+        choices: ['MIT', 'ISC', 'IBM']
     },
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     console.log(data)
-    fs.writeFile('README.md', data, err =>
+    fs.writeFile('../README.md', data, err =>
     err ? console.log(err) : console.log('Success!'));
 }
 
@@ -96,11 +96,16 @@ function writeToFile(fileName, data) {
 function init() {
     return inquirer.prompt(questions)
     .then(answers => {
-        return generateMarkdown(answers)})
-    .then((answers) => {
+        const licenseBadge = generateMarkdown.renderLicenseBadge(answers.license);
+        const licenseLink = generateMarkdown.renderLicenseLink(answers.license);
+        console.log(answers, licenseBadge);
+        answers.licenseBadge = licenseBadge;
+        answers.licenseLink = licenseLink;
+        return generateMarkdown.generateMarkdown(answers)})
+    .then((data) => {
         // console.log(answers)
         // return answers
-        writeToFile('README.md', answers)
+        writeToFile('README.md', data)
     })
     .catch((error) => {
         console.log(error)
