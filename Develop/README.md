@@ -16,22 +16,22 @@
   - [Github](#github)
 
   ## Description
-  description
+  generate a professional readme file
 
   ## Installation
-  installation
+  install inquirer 8.2.4
 
   ## Usage
-  usage
+  use terminal to generate a readme file
 
   ## Contribution
-  contribution
+  n/a
 
   ## License
   [MIT](https://opensource.org/licenses/MIT)
 
   ## Tests
-  test
+  to test this app run node index.js in develop directory
 
   ## Questions
   ## Email
