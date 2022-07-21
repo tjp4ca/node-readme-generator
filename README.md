@@ -6,4 +6,4 @@ screencastify: https://drive.google.com/file/d/1lnT8Hif-VbKoc0ToiAOfco2XgVfJUm6v
 
 github link: https://github.com/tjp4ca/node-readme-generator
 
-generated readme file link: https://github.com/tjp4ca/node-readme-generator/tree/main/Develop
+generated readme file link: https://github.com/tjp4ca/node-readme-generator/blob/main/Develop/README.md
